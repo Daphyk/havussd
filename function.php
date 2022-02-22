@@ -12,4 +12,8 @@ eio_cancel($req);
 eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "2");
 // Process requests
 eio_event_loop();
+function myname ()
+{$response = "CON Please enter new name";
+    return $response;
+ 
 ?>
