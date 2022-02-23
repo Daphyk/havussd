@@ -6,7 +6,8 @@
  }
 // This eio_nop() call will be cancelled
 $req = eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "1");
-var_dump($req);
+var_dump($req);''
+ // errro 
 eio_cancel($req);
 // This time eio_nop() will be processed
 eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "2");
