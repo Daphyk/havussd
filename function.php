@@ -17,5 +17,5 @@ eio_event_loop();
 function newname ()
 {$response = "CON Please enter new name";
     return $response;
-    
+    */
 ?>
