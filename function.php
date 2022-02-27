@@ -20,6 +20,7 @@ function newname ()
     */
 // error
 /*
+/*
 function affliates()
 {
     $response = "CON";
@@ -63,4 +64,5 @@ function AlternativeNumber()
     $response = "CON Please enter your alternative number \n";
     return $response;
 }
+*/
 ?>
