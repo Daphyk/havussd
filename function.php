@@ -48,29 +48,4 @@ function affliates()
     $response .= "2. Invite your friends\n";
   	return $response;
 }
-function myNumber($phoneNumber)
-{
-    $response = "END Your phone number is $phoneNumber";
-    return $response;
-}
-
-function editName()
-{
-    $response = "CON Please enter new name";
-    return $response;
-}
-function faqs()
-{
-    $response = "END Follow us on our social media platforms or contact us on 0723880313\n";
-    return $response;
-}
-function optout()
-{
-    $response="CON Are you sure you want to Opt Out \n";
-    $response.= "1. Yes \n";
-    $response.= "2.No \n";
-    return $response;
-}
-function optoutSuccess()
-
 ?>
