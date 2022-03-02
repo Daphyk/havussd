@@ -73,15 +73,4 @@ function optout()
 }
 function optoutSuccess()
 
-{
-    $response="END You have successfully opted out";
-    return $response;
-}
-function AlternativeNumber()
-
-{
-    $response = "CON Please enter your alternative number \n";
-    return $response;
-}
-*/
 ?>
