@@ -25,7 +25,7 @@ function newname ()
 function whatsNew()
 {
             $response ="CON Trainees center \n";
-            $response .= "welcome to trainees center to continue in enlish press 1 to continue in kiswahili press 2 \n";
+            $response .= "welcome to trainees center to continue in english press 1 to continue in kiswahili press 2 \n";
             $response .= "00.Main ";
             $response .= "0.Back";
   			return $response;
