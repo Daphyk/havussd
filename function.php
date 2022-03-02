@@ -65,7 +65,6 @@ function faqs()
     return $response;
 }
 function optout()
-klmefslk
 {
     $response="CON Are you sure you want to Opt Out \n";
     $response.= "1. Yes \n";
